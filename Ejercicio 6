@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+    
+    // Declarar Variables
+    
+    int año_actual;
+    
+    int año_nacimiento;
+    
+    int mes_de_nacimiento;
+    
+    int mes_actual;
+    
+    int edad;
+    
+    int meses;
+    
+    // Solicitar Leer
+    
+    cout<<"Ingresa el año de nacimiento: ";
+    cin>>año_nacimiento;
+    
+    cout<<"Ingresa el año actual: ";
+    cin>>año_actual;
+    
+    cout<<"Ingresa el mes de nacimiento: ";
+    cin>>mes_de_nacimiento;
+    
+    cout<<"Ingresa el mes actual: ";
+    cin>>mes_actual;
+    
+    //Calcular
+    
+    edad = (año_actual-año_nacimiento);
+    
+    meses = (mes_actual-mes_de_nacimiento);
+    
+    //Mostrar
+    
+    cout<<"La edad es de "<<edad<<" años y " <<meses<< " meses.";
+    
+}
