@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main()
+    
+    {
+    
+    // Variables
+    
+    float cantidad_pesos;
+    
+    float valor_dolar;
+    
+    float cantidad_dolares;
+    
+    // Solicitar/Leer
+    
+    cout<<"Ingresa la cantidad en pesos: ";
+    cin>>cantidad_pesos;
+    
+    cout<<"Ingresa el valor actual del dolar: ";
+    cin>>valor_dolar;
+    
+    // Calcular
+    
+    cantidad_dolares = cantidad_pesos / valor_dolar;
+    
+    // Mostrar
+    
+    cout<<"La equivalencia en dolares es: "<<cantidad_dolares;
+    
+    }
