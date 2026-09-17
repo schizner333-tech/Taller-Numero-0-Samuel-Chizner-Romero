@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main()
+    
+    {
+    
+    // Variables
+    
+    float precio_compra;
+    
+    float ganancia;
+    
+    float precio_venta;
+    
+    // Solicitar/Leer
+    
+    cout<<"Ingresa el precio de compra del articulo: ";
+    cin>>precio_compra;
+    
+    // Calcular
+    
+    ganancia = precio_compra * 0.30;
+    
+    precio_venta = precio_compra + ganancia;
+    
+    // Mostrar
+    
+    cout<<"El precio en que lo debe vender para obtener una ganancia del 30% es: "<<precio_venta<< ".";
+    
+    }
