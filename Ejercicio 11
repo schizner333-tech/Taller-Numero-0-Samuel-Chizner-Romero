@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+
+int main()
+    
+    {
+    
+    // Variables
+    
+    float inversion1;
+    
+    float inversion2;
+    
+    float inversion3;
+    
+    float total_inversion;
+    
+    float porcentaje1;
+    
+    float porcentaje2;
+    
+    float porcentaje3;
+    
+    // Solicitar/Leer
+    
+    cout<<"Ingresa la inversion de la primera persona: ";
+    cin>>inversion1;
+    
+    cout<<"Ingresa la inversion de la segunda persona: ";
+    cin>>inversion2;
+    
+    cout<<"Ingresa la inversion de la tercera persona: ";
+    cin>>inversion3;
+    
+    // Calcular
+    
+    total_inversion = inversion1 + inversion2 + inversion3;
+    
+    porcentaje1 = (inversion1 * 100.0) / total_inversion;
+    
+    porcentaje2 = (inversion2 * 100.0) / total_inversion;
+    
+    porcentaje3 = (inversion3 * 100.0) / total_inversion;
+    
+    // Mostrar
+    
+    cout<<"El porcentaje de la primera persona es: "<<porcentaje1<<"%.";
+    cout<<", el de la segunda persona es: "<<porcentaje2<<"%.";
+    cout<<" y el de la tercera persona es: "<<porcentaje3<<"%.";
+    
+    }
