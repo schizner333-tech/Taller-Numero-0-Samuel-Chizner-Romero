@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+
+int main()
+    
+    {
+    
+    // Variables
+    
+    float parcial1;
+    
+    float parcial2;
+    
+    float parcial3;
+    
+    float promedio_parciales;
+    
+    float examen_final;
+    
+    float trabajo_final;
+    
+    float calificacion_final;
+    
+    // Solicitar/Leer
+    
+    cout<<"Ingresa la calificacion del primer parcial: ";
+    cin>>parcial1;
+    
+    cout<<"Ingresa la calificacion del segundo parcial: ";
+    cin>>parcial2;
+    
+    cout<<"Ingresa la calificacion del tercer parcial: ";
+    cin>>parcial3;
+    
+    cout<<"Ingresa la calificacion del examen final: ";
+    cin>>examen_final;
+    
+    cout<<"Ingresa la calificacion del trabajo final: ";
+    cin>>trabajo_final;
+    
+    // Calcular
+    
+    promedio_parciales = (parcial1 + parcial2 + parcial3) / 3;
+    
+    calificacion_final = (promedio_parciales * 0.55) + (examen_final * 0.30) + (trabajo_final * 0.15);
+    
+    // Mostrar
+    
+    cout<<"El promedio de los parciales es "<<promedio_parciales<<" y tu calificacion final en la materia de Algoritmos es "<<calificacion_final<<".";
+    
+    }
