@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main()
+   
+    {
+   
+    int Capital; 
+    
+    int Ganancia;
+    
+    int Meses;
+    
+    int Tasa;
+    
+    cout<<"Ingresa el valor del capital: " ;
+    cin>>Capital;
+    
+    cout<<"A cuantos Meses?: ";
+    cin>>Meses;
+    
+    cout<<"A una tasa de?: (Ingresa Entero) ";
+    cin>>Tasa;
+    
+    Ganancia = (Capital*Meses*Tasa)/100; 
+    
+    cout<<"La ganancia fue: "<<Ganancia<< " En " <<Meses<< " Meses a una tasa de " <<Tasa<< "% ";
+
+    }
