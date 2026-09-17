@@ -1,0 +1,96 @@
+#include <iostream>
+using namespace std;
+
+int main()
+    
+    {
+    
+    // Variables
+    
+    float examen_matematicas;
+    
+    float tarea1_matematicas;
+    
+    float tarea2_matematicas;
+    
+    float tarea3_matematicas;
+    
+    float promedio_tareas_mat;
+    
+    float calificacion_matematicas;
+    
+    float examen_fisica;
+    
+    float tarea1_fisica;
+    
+    float tarea2_fisica;
+    
+    float promedio_tareas_fis;
+    
+    float calificacion_fisica;
+    
+    float examen_quimica;
+    
+    float tarea1_quimica;
+    
+    float tarea2_quimica;
+    
+    float tarea3_quimica;
+    
+    float promedio_tareas_quimica;
+    
+    float calificacion_quimica;
+    
+    float promedio_general;
+    
+    // Solicitar/Leer
+    
+    cout<<"Ingresa la calificacion del examen de Matematicas: ";
+    cin>>examen_matematicas;
+    cout<<"Ingresa la nota de la tarea 1: ";
+    cin>>tarea1_matematicas;
+    cout<<"Ingresa la nota de la tarea 2: ";
+    cin>>tarea2_matematicas;
+    cout<<"Ingresa la nota de la tarea 3: ";
+    cin>>tarea3_matematicas;
+    
+    cout<<"Ingresa la calificacion del examen de Fisica: ";
+    cin>>examen_fisica;
+    cout<<"Ingresa la nota de la tarea 1: ";
+    cin>>tarea1_fisica;
+    cout<<"Ingresa la nota de la tarea 2: ";
+    cin>>tarea2_fisica;
+    
+    cout<<"Ingresa la calificacion del examen de Quimica: ";
+    cin>>examen_quimica;
+    cout<<"Ingresa la nota de la tarea 1: ";
+    cin>>tarea1_quimica;
+    cout<<"Ingresa la nota de la tarea 2: ";
+    cin>>tarea2_quimica;
+    cout<<"Ingresa la nota de la tarea 3: ";
+    cin>>tarea3_quimica;
+    
+    // Calcular
+    
+    promedio_tareas_mat = (tarea1_matematicas + tarea2_matematicas + tarea3_matematicas) / 3.0;
+    
+    calificacion_matematicas = (examen_matematicas * 0.90) + (promedio_tareas_mat * 0.10);
+    
+    promedio_tareas_fis = (tarea1_fisica + tarea2_fisica) / 2.0;
+    
+    calificacion_fisica = (examen_fisica * 0.80) + (promedio_tareas_fis * 0.20);
+    
+    promedio_tareas_quimica = (tarea1_quimica + tarea2_quimica + tarea3_quimica) / 3.0;
+    
+    calificacion_quimica = (examen_quimica * 0.85) + (promedio_tareas_quimica * 0.15);
+    
+    promedio_general = (calificacion_matematicas + calificacion_fisica + calificacion_quimica) / 3.0;
+    
+    // Mostrar
+    
+    cout<<"La calificacion final en Matematicas es: "<<calificacion_matematicas<<".";
+    cout<<"La calificacion final en Fisica es: "<<calificacion_fisica<<".";
+    cout<<"La calificacion final en Quimica es: "<<calificacion_quimica<<".";
+    cout<<"Y tu promedio general en las tres materias es: "<<promedio_general<<".";
+    
+    }
