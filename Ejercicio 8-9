@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+
+int main()
+    
+    {
+    
+    // Variables
+    
+    float presupuesto_total;
+    
+    float presupuesto_ginecologia;
+    
+    float presupuesto_traumatologia;
+    
+    float presupuesto_pediatria;
+    
+    // Solicitar/Leer
+    
+    cout<<"Ingresa el presupuesto anual total: ";
+    cin>>presupuesto_total;
+    
+    // Calcular
+    
+    presupuesto_ginecologia = presupuesto_total * 0.40;
+    
+    presupuesto_traumatologia = presupuesto_total * 0.30;
+    
+    presupuesto_pediatria = presupuesto_total * 0.30;
+    
+    // Mostrar
+    
+    cout<<"El presupuesto para Ginecologia es "<<presupuesto_ginecologia<<".";
+    cout<<", para Traumatologia es "<<presupuesto_traumatologia<<".";
+    cout<<" y para Pediatria es "<<presupuesto_pediatria<<".";
+    
+    }
