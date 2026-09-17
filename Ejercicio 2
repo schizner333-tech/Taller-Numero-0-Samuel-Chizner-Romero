@@ -1,0 +1,50 @@
+#include <iostream>
+using namespace std;
+
+int main()
+    
+    {
+    
+    // Variables
+    
+    float sueldo_base; 
+    
+    float venta1;
+    
+    float venta2;
+    
+    float venta3;
+    
+    float total_ventas;
+    
+    float comision;
+    
+    float sueldo_total;
+    
+    // Solicitar/Leer
+    
+    cout<<"Ingresa el sueldo base: ";
+    cin>>sueldo_base;
+    
+    cout<<"Ingresa el valor de la primera venta: ";
+    cin>>venta1;
+    
+    cout<<"Ingresa el valor de la segunda venta: ";
+    cin>>venta2;
+    
+    cout<<"Ingresa el valor de la tercera venta: ";
+    cin>>venta3;
+    
+    // Calcular
+    
+    total_ventas = venta1 + venta2 + venta3;
+    
+    comision = total_ventas * 0.10;
+    
+    sueldo_total = sueldo_base + comision;
+    
+    // Mostrar
+    
+    cout<<"La ganancia por comisiones fue "<<comision<< " y el total que recibira en el mes es "<<sueldo_total<< ".";
+    
+    }
