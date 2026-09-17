@@ -1,0 +1,47 @@
+#include <iostream>
+using namespace std;
+ 
+int main()
+ 
+{
+
+ // Declarar variables
+ 
+ float Compra;
+
+ float Descuento;
+ 
+ float Tasa_De_Descuento;
+ 
+ float Tasa_De_Impuesto;
+ 
+ float Total_Final;
+
+  // Solicitar leer Compra
+ 
+ cout<<"Ingrese el valor de la compra: ";
+ cin>>Compra;
+ 
+ // Calcular Descuento
+ 
+ cout<<"Que tasa de descuento deseas aplicar?: (Ingresa Decimal) ";
+ cin>>Tasa_De_Descuento;
+ 
+ Descuento=(Compra*Tasa_De_Descuento);
+ 
+ // Calcular Impuesto
+ 
+ cout<<"Que tasa de impuesto?: (Ingresa Decimal) ";
+ cin>>Tasa_De_Impuesto;
+ 
+ Tasa_De_Impuesto=(Compra*Tasa_De_Impuesto);
+
+ // Calcular Total Final
+ 
+ Total_Final = (Compra+Tasa_De_Impuesto-Descuento);
+ 
+ // Mostrar
+ 
+ cout<<"El descuento es de " <<Descuento<< " Y debes de pagar " <<Total_Final<< ".";
+ 
+}
