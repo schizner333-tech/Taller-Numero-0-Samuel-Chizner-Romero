@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+
+int main()
+    
+    {
+    
+    // Variables
+    
+    int cantidad_hombres;
+    
+    int cantidad_mujeres;
+    
+    int total_estudiantes;
+    
+    float porcentaje_hombres;
+    
+    float porcentaje_mujeres;
+    
+    // Solicitar/Leer
+    
+    cout<<"Ingresa la cantidad de hombres: ";
+    cin>>cantidad_hombres;
+    
+    cout<<"Ingresa la cantidad de mujeres: ";
+    cin>>cantidad_mujeres;
+    
+    // Calcular
+    
+    total_estudiantes = cantidad_hombres + cantidad_mujeres;
+    
+    porcentaje_hombres = (cantidad_hombres * 100.0) / total_estudiantes;
+    
+    porcentaje_mujeres = (cantidad_mujeres * 100.0) / total_estudiantes;
+    
+    // Mostrar
+    
+    cout<<"El porcentaje de hombres es "<<porcentaje_hombres<<"% y el porcentaje de mujeres es "<<porcentaje_mujeres<<"%.";
+    
+    }
